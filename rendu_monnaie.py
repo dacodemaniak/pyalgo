@@ -9,8 +9,12 @@ Use input() function to get a user entry
 """
 
 # Accept an amount entry
-somme = input("Insérez votre billet : ")
+customerSomme = input("Insérez votre billet : ")
+somme = int(customerSomme)
+# Got 100
+nbBillet100 = somme / 100
+left100 = somme % 100
 
 # Just KISS (Keep It Simple and Stupid)
-print("Vous m'avez donné " , somme , " euros")
+print ("Il y a ", nbBillet100, " billets de 100 et il reste ", left100)
 
