@@ -50,6 +50,8 @@ if (somme > totalDue):
 else: 
     if (somme == totalDue): 
         print("Merci, bonne journée et à bientôt")
+    else: 
+        print("heu... mais il n'y a pas assez là")
 
 
 
