@@ -14,6 +14,11 @@ operande2 = 2
 resultat = operande1 + operande2
 print(resultat)
 
+if resultat > 0: 
+    print("Résultat positif")
+else:
+    print("Resultat négatif")
+
 """
 Fin de l'algorithme
 """
